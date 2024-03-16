@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IQ Finance</title>
+  <link rel="stylesheet" type="text/css" href="static/invststyles.css">
+  <script>
+    function validateForm() {
+      var savings = document.forms["financialForm"]["savings"].value;
+      var investment = document.forms["financialForm"]["investment"].value;
+      if (savings <= 0 || investment <= 0) {
+        alert("Both amounts must be positive numbers.");
+        return false;
+      }
+      return true;
+    }
+  </script>
+</head>
+<body>
+    <div class="navbar">
+    <div class="brand-title"><img src="static/image.png" alt="IQ Finance"></div>
+    <div class="navbar-links">
+      <a href="homepage.html" target = "_blank"><b>HOME</b></a>
+      <a href="#about-us"><B>ABOUT US</B></a>
+      <a href="#login"><b>LOGIN</b></a>
+    </div>
+  </div>
+
+  <video autoplay muted loop id="bg-video">
+    <source src="static/video2.mp4" type="video/mp4">
+  </video>
+
+  <div class="content">
+    <div class="form-container">
+      <form name="financialForm" onsubmit="return validateForm()">
+        <label for="savings">Savings Amount:</label>
+        <input type="number" id="savings" name="savings" required>
+        <label for="investment">Investment Amount:</label>
+        <input type="number" id="investment" name="investment" required><br>
+        <input type="submit" value="Submit" id="submit-button">
+      </form>
+    </div>
+
+    <div class="images-container">
+      <!-- Images arranged in 4 rows, 2 in each -->
+      <div class="row">
+        <img src="static/bajajfin.jpeg" alt="Image 1">
+        <img src="static/kotak.jpeg" alt="Image 2">
+      </div>
+      <div class="row">
+        <img src="static/maruti.jpeg" alt="Image 3">
+        <img src="static/tatamotors.jpeg" alt="Image 4">
+      </div>
+      <div class="row">
+        <img src="static/reliance.jpeg" alt="Image 5">
+        <img src="static/wipro.jpeg" alt="Image 6">
+      </div>
+      <div class="row">
+        <img src="static/gd.jpeg" alt="Image 7">
+        <img src="static/Screenshot 2024-03-16 190321.png" alt="Image 8">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
