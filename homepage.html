@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<script>
+    document.addEventListener('mousemove', function(e) {
+      var x = e.clientX;
+      var y = e.clientY;
+      document.body.style.setProperty('--cursor-x', x + 'px');
+      document.body.style.setProperty('--cursor-y', y + 'px');
+    });
+  </script>
+  
+<body>
+    <div class="navbar">
+        <video autoplay muted loop id="bg-video">
+        <source src="video1.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <div class="brand-title"><img src="image.png" height = "50px" width = "170px"></div>
+    <div class="navbar-links">
+      <a href="#home"><b>HOME</b></a>
+      <a href="#about-us"><B>ABOUT US</B></a>
+      <a href="#login"><b>LOGIN</b></a>
+    </div>
+  </div>
+  <div class="main-content">
+    <h1>IQ FINANCE</h1>
+    <p>
+        IQ Finance offers a robust suite of financial management tools designed to empower users to master their finances with ease. Our platform features intuitive expense tracking, sophisticated categorization, and dynamic visualizations, enabling users to effortlessly monitor their spending patterns and make informed financial decisions. With our comprehensive budget tracking capabilities, planning and controlling your financial future has never been easier.
+        <br><br>
+As your digital finance mentor, IQ Finance provides insightful guidance to navigate the financial landscape with precision. Our platform anticipates potential debt risks, offering proactive advice to ensure financial stability and growth. Leveraging cutting-edge technology and user-friendly interfaces, IQ Finance equips you with the necessary resources to achieve your financial goals confidently and with clarity.
+        </p>
+  </div>
+  <div class="image-container">
+    <a href="https://example.com" class="image-text-wrapper">
+      <img src="nodebt.jpeg" alt="Image description" class="responsive-image">
+      <p class="image-text"><b>Debt Predictor -<br> "Future-Proof Your Finances"</b><br><br>
+        A tool designed to assess your financial health and predict potential debt risks. By evaluating your inputs, IQ Finance offers tailored advice to steer clear of debt, ensuring a secure financial future.</p>
+    </a>
+    <a href="https://example.com" class="image-text-wrapper">
+      <img src="investment.jpeg" alt="Image description" class="responsive-image">
+      <p class="image-text"><b>Investment Illuminator - <br>"Illuminate Your Investment Journey"</b><br><br>
+
+        Discover the brilliance of smart investing with our Investment Illuminator.This feature suggests optimal investment strategies based on your savings, helping you maximize growth with confidence.</p>
+    </a>
+  </div>
+
+
+
+</body>
+
+</html>

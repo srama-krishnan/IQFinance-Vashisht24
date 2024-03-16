@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .form-box {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            margin: 0;
+            background-color: #f3f3f3;
+            color: black;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            let fields = ["SeriousDlqin2yr", "RevolvingUtilizationOfUnsecuredLines", "age", "NumberOfTime3059DaysPastDueNotWorse", "DebtRatio", "MonthlyIncome", "NumberOfOpenCreditLinesAndLoans", "NumberOfTimes90DaysLate", "NumberRealEstateLoansOrLines", "NumberOfTime6089DaysPastDueNotWorse", "NumberOfDependents"];
+            for (let i = 0; i < fields.length; i++) {
+                let x = document.forms["myForm"][fields[i]].value;
+                if (x == "") {
+                    alert("All fields must be filled out");
+                    return false;
+                }
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+
+<div class="form-box">
+    <form name="myForm" action="/submit_form" onsubmit="return validateForm()" method="post">
+        <label for="SeriousDlqin2yr">Serious Delinquency in 2 Years:</label><br>
+        <input type="number" id="SeriousDlqin2yr" name="SeriousDlqin2yr" required><br>
+        <label for="RevolvingUtilizationOfUnsecuredLines">Revolving Utilization Of Unsecured Lines:</label><br>
+        <input type="text" id="RevolvingUtilizationOfUnsecuredLines" name="RevolvingUtilizationOfUnsecuredLines" required><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br>
+        <label for="NumberOfTime3059DaysPastDueNotWorse">Number Of Time 30-59 Days Past Due Not Worse:</label><br>
+        <input type="number" id="NumberOfTime3059DaysPastDueNotWorse" name="NumberOfTime3059DaysPastDueNotWorse" required><br>
+        <label for="DebtRatio">Debt Ratio:</label><br>
+        <input type="text" id="DebtRatio" name="DebtRatio" required><br>
+        <label for="MonthlyIncome">Monthly Income:</label><br>
+        <input type="number" id="MonthlyIncome" name="MonthlyIncome" required><br>
+        <label for="NumberOfOpenCreditLinesAndLoans">Number Of Open Credit Lines And Loans:</label><br>
+        <input type="number" id="NumberOfOpenCreditLinesAndLoans" name="NumberOfOpenCreditLinesAndLoans" required><br>
+        <label for="NumberOfTimes90DaysLate">Number Of Times 90 Days Late:</label><br>
+        <input type="number" id="NumberOfTimes90DaysLate" name="NumberOfTimes90DaysLate" required><br>
+        <label for="NumberRealEstateLoansOrLines">Number Real Estate Loans Or Lines:</label><br>
+        <input type="number" id="NumberRealEstateLoansOrLines" name="NumberRealEstateLoansOrLines" required><br>
+        <label for="NumberOfTime6089DaysPastDueNotWorse">Number Of Time 60-89 Days Past Due Not Worse:</label><br>
+        <input type="number" id="NumberOfTime6089DaysPastDueNotWorse" name="NumberOfTime6089DaysPastDueNotWorse" required><br>
+        <label for="NumberOfDependents">Number Of Dependents:</label><br>
+        <input type="number" id="NumberOfDependents" name="NumberOfDependents" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>

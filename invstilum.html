@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IQ Finance</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script>
+    function validateForm() {
+      var savings = document.forms["financialForm"]["savings"].value;
+      var investment = document.forms["financialForm"]["investment"].value;
+      if (savings <= 0 || investment <= 0) {
+        alert("Both amounts must be positive numbers.");
+        return false;
+      }
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <div class="navbar">
+    <!-- Navbar content similar to the one described before -->
+    <div class="brand-title">IQ Finance</div>
+    <div class="navbar-links">
+      <a href="#home">HOME</a>
+      <a href="#about-us">ABOUT US</a>
+      <a href="#login">LOGIN</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="form-container">
+      <form name="financialForm" onsubmit="return validateForm()">
+        <label for="savings">Savings Amount:</label>
+        <input type="number" id="savings" name="savings" required><br><br>
+        <label for="investment">Investment Amount:</label>
+        <input type="number" id="investment" name="investment" required><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div class="images-container">
+      <!-- Images arranged in 4 rows, 2 in each -->
+      <div class="row">
+        <img src="images_invstilum/bajajfin.jpeg" alt="Image 1">
+        <img src="images_invstilum/kotak.jpeg" alt="Image 2">
+      </div>
+      <div class="row">
+        <img src="images_invstilum/maruti.jpeg" alt="Image 3">
+        <img src="images_invstilum/tatamotors.jpeg" alt="Image 4">
+      </div>
+      <div class="row">
+        <img src="images_invstilum/reliance.jpeg" alt="Image 5">
+        <img src="images_invstilum/wipro.jpeg" alt="Image 6">
+      </div>
+      <div class="row">
+        <img src="images_invstilum/gd.jpeg" alt="Image 7">
+        <img src="images_invstilum/Screenshot 2024-03-16 190321.png" alt="Image 8">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
