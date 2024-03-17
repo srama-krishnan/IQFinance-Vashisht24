@@ -63,10 +63,6 @@ IQ Finance is a cutting-edge platform designed to guide users through the intric
 To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
-Ensure you have the latest version of npm installed. You can install it with the following command:
-```
-npm install npm@latest -g
-```
 Installation and Setup
 Clone the Repository
 
