@@ -1,10 +1,9 @@
-/* Reset styles */
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;      
 }
 
 /* Background styles */
@@ -13,13 +12,13 @@ body, html {
     height: 100%;
     background-size: cover;
     font-family: Arial, sans-serif;
-    background-color: rgba(0, 0, 0, 0.6); /* Reduced opacity of the background */
+    background-color: rgba(0, 0, 0, 0.6); 
 }
 
 /* Navbar styles */
 .navbar {
     width: 100%;
-    padding: 0.1% 2%; /* Use relative padding */
+    padding: 0.1% 2%; 
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: space-between;
@@ -31,7 +30,7 @@ body, html {
 }
 
 .main-content h1:hover {
-    color: rgb(0, 255, 179); /* Change color to cyan on hover */
+    color: rgb(0, 255, 179); 
     transform : scale(1.05);
     text-decoration: solid;
     transition: transform 0.5s ease;
@@ -40,24 +39,22 @@ body, html {
 .navbar a {
     color: #e6ebe2;
     text-decoration: none;
-    margin-left: 1.5vw; /* Use viewport width for margins */
-    font-size: 1.2vw; /* Use viewport width for font size */
-    padding: 0.5vw 1.3vw; /* Use viewport width for padding */
+    margin-left: 1.5vw; 
+    font-size: 1.2vw; 
+    padding: 0.5vw 1.3vw; 
     border: 2px solid white;
     border-radius: 20px;
     transition: background-color 0.7s, color 0.7s;
 }
 
-/* Hover effects for navbar links */
 .navbar a:hover {
     background-color: white;
     color: #08509f;
 }
 
-/* Branding and header styles */
 .brand-title {
     color: white;
-    font-size: 1.6vw; /* Use viewport width for font size */
+    font-size: 1.6vw; 
     font-family: 'Open Sans', sans-serif;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -71,7 +68,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     color: #dfddce;
     text-align: center;
-    font-size: 2.8vw; /* Use viewport width for font size */
+    font-size: 2.8vw; 
     text-shadow: 2px 2px 4px #000000;
     padding-bottom: 3%;
     transition: transform 0.5s ease;
@@ -90,17 +87,17 @@ h1 {
     position: fixed;
     width: 100%;
     height: 200%;
-    background: rgba(0, 0, 0, 0.3); /* Black overlay with 0.5 opacity */
+    background: rgba(0, 0, 0, 0.3); 
     z-index: -98;
 }
 
 /* Main content styles */
 .main-content {
     text-align: justify;
-    width: 47%; /* Keep width relative */
+    width: 47%; 
     background-color: rgba(37, 62, 78, 0.8);
-    padding: 3%; /* Use relative padding */
-    margin-top: 13%; /* Use relative margin */
+    padding: 3%; 
+    margin-top: 13%; 
     position: absolute;
     top: 10%;
     left: 4%;
@@ -109,7 +106,7 @@ h1 {
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-    opacity: 0; /* Start with hidden content */
+    opacity: 0; 
     animation: fadeInAnimation 1s ease 0.4s forwards;
     position: relative;
     margin-bottom: 0%;
@@ -123,10 +120,9 @@ h1 {
 }
 
 .main-content p {
-    font-size: 1.55vw; /* Use viewport width for font size */
+    font-size: 1.55vw; 
 }
 
-/* Responsive styles */
 @media only screen and (max-width: 768px) {
     .navbar-links {
         flex-direction: column;
@@ -146,46 +142,43 @@ h1 {
     }
 
     .brand-title, h1, .main-content p {
-        font-size: 3vw; /* Increase font size slightly for better readability on smaller screens */
+        font-size: 3vw; 
     }
 }
 
-/* Additional global styles */
 a, p, h1 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-/* Style for the image containers */
 .image-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%; /* Take up the right half of the screen */
-    position: absolute; /* Adjust this as needed */
-    top: 55%; /* Adjust this as needed */
+    width: 50%; 
+    position: absolute; 
+    top: 55%; 
     right: 0;
-    transform: translateY(-50%); /* Adjust this as needed */
+    transform: translateY(-50%); 
     padding: 2%;
-    z-index: 2; /* Ensure it's above the video background */
+    z-index: 2; 
     padding-left: 4%;
-    opacity: 0; /* Start with hidden content */
+    opacity: 0; 
     animation: fadeInAnimation 1s ease 0.4s forwards;
 }
 
-/* Style for each image and text wrapper */
 .image-text-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 3%;
     border-bottom: 2px solid white;
-    transition: transform 0.5s ease; /* Transition for scaling effect */
-    text-decoration: none; /* Remove underline from links */
+    transition: transform 0.5s ease; 
+    text-decoration: none; 
 }
 
 .image-text-wrapper:hover {
-    transform: scale(1.05); /* Scale up on hover */
+    transform: scale(1.05); 
     cursor: pointer;
 }
 
@@ -193,56 +186,52 @@ a, p, h1 {
     text-decoration: none;
 }
 
-/* Responsive image style */
 .responsive-image {
     width: 35%;
     height: auto;
     margin-left: 5%;
     margin-bottom: 1%;
-    transition: transform 0.5s ease; /* Smooth transition for scaling */
+    transition: transform 0.5s ease; 
 }
 
-/* Hover effect for images */
 .image-text-wrapper:hover .responsive-image {
-    transform: scale(1.05); /* Scale up the image */
+    transform: scale(1.05); 
 }
 .container {
     position: relative;
   }
-/* Style for text next to images */
+
 .image-text {
     color: white;
     font-size: 1.2vw;
     width: 50%;
     text-align: left;
-    transition: color 0.5s ease; /* Smooth transition for text color */
+    transition: color 0.5s ease;
 }
 
-/* Color transition for text on hover */
 .image-text-wrapper:hover .image-text {
-    color: #ccc; /* Change text color on hover */
+    color: #ccc; 
 }
 
-/* Adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
     .image-container {
-      width: 100%; /* Full width on smaller screens */
+      width: 100%; 
       position: relative;
       top: 0;
       transform: translateY(0);
     }
 
     .image-text-wrapper {
-      flex-direction: column; /* Stack image and text on top of each other */
+      flex-direction: column; 
     }
 
     .responsive-image, .image-text {
-      width: 90%; /* Take up more space within the container */
-      margin: auto; /* Center align within the container */
+      width: 90%; 
+      margin: auto; 
     }
 
     .image-text {
-      font-size: 3vw; /* Larger text for readability on small screens */
+      font-size: 3vw; 
     }
 }
 
@@ -271,7 +260,7 @@ a, p, h1 {
   }
   
   .insight-image {
-    width: 82%; /* Adjust based on preference */
+    width: 82%; 
     margin: 0.25% 1%;
     transition: transform 0.5s ease;
   }
@@ -281,11 +270,11 @@ a, p, h1 {
   }
   
   .rectangle {
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
   }
   
   .square {
-    width: 70%; /* Adjust for square aspect ratio */
+    width: 70%; 
     height: auto;
   }
   
@@ -299,7 +288,7 @@ a, p, h1 {
     }
   
     .insight-image {
-      width: 80%; /* Larger for better visibility on smaller screens */
+      width: 80%; 
       margin-bottom: 1%;
     }
     #bg-video {
@@ -322,8 +311,8 @@ a, p, h1 {
   
   @media only screen and (max-width: 768px) {
     .insight-image {
-      width: 80%; /* Adjust for smaller screens */
-      margin: 0 5%; /* Adjust spacing for smaller screens */
+      width: 80%; 
+      margin: 0 5%; 
     }
   }
   /* About Us Section Styles */

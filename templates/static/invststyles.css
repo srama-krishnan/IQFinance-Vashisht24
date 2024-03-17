@@ -19,7 +19,7 @@
   .content {
     display: flex;
     justify-content: space-between;
-    margin-top: 5%; /* Adjust based on navbar height */
+    margin-top: 5%; 
   }
 
   #bg-video {
@@ -60,7 +60,7 @@
   
   .content {
     display: flex;
-    margin-top: 40px; /* Adjust based on navbar height */
+    margin-top: 40px; 
     height: calc(100% - 40px);
   }
   
