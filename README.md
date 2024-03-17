@@ -50,15 +50,14 @@ IQ Finance is a cutting-edge platform designed to guide users through the intric
 ![flowchart](https://github.com/srama-krishnan/IQFinance-Vashisht24/assets/118114813/e0b48d50-3f9a-459e-9f9f-38f4393b8bd4)
 
 ## Tech Stack :
-Web Framework
-Machine Learning Library
-Data Handling
-Frontend
-Model Persistence
-Development and Deployment
-Operating System
-Web Server
-Text Editor/IDE
+- Web Framework
+- Machine Learning Library
+- Data Handling
+- Frontend
+- Model Persistence
+- Development and Deployment
+- Operating System
+- Web Server
 
 ## How to run Locally :
 To get a local copy up and running, follow these simple steps.
