@@ -44,10 +44,8 @@ IQ Finance is a cutting-edge platform designed to guide users through the intric
 - Periodic Review and Adjustment: Regularly revisit and adjust your plan.
 - Seek Support and Assistance: Contact customer support for help or questions.
 
+![flowchart](https://github.com/srama-krishnan/IQFinance-Vashisht24/assets/118114813/f909a786-5ae0-419a-b411-06f3abe46361)
 
-![flowchart](https://github.com/srama-krishnan/IQFinance-Vashisht24/assets/118114813/b6ee6cf9-67ae-4d60-a2da-2382fbb24884)
-![flowchart](https://github.com/srama-krishnan/IQFinance-Vashisht24/assets/118114813/d050e545-1f88-4a62-a173-8f7a1b506c09)
-![flowchart](https://github.com/srama-krishnan/IQFinance-Vashisht24/assets/118114813/e0b48d50-3f9a-459e-9f9f-38f4393b8bd4)
 
 ## Tech Stack :
 - Web Framework
