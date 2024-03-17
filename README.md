@@ -101,10 +101,6 @@ Personalized Recommendations: Implement machine learning algorithms to offer per
 
 Community Engagement: Create a platform where users can share insights, discuss investment strategies, and learn from experienced financial advisors.
 
-Mobile Compatibility: Develop a mobile app to ensure users can access financial insights and manage their investments on the go.
-
-Security Enhancements: Strengthen the platform's security measures to safeguard users' financial information and ensure data privacy.
-
 User Experience Improvements: Continuously refine the user interface and user experience based on feedback to make financial planning more intuitive and accessible.
 
 By focusing on these areas, we aim to empower individuals with the tools and knowledge they need to make informed financial decisions, ultimately fostering financial well-being and security.
