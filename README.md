@@ -78,14 +78,14 @@ cd IQFinance-Vashisht24
 Install Dependencies
 Navigate to the project directory and install the necessary dependencies:
 ```
-npm install
+pip install -r requirements.txt
 ```
 Start the Development Server
 Once the dependencies are installed, you can start the development server:
 ```
-npm start
+python app.py
 ```
-After running the command, the React application should open and run in your default web browser. If it doesn't open automatically, you can access it by visiting http://localhost:3000 in your browser.
+After running the command, the React application should open and run in your default web browser. If it doesn't open automatically, you can access it by visiting http://localhost:5000 in your browser.
 
 ### Additional Configuration (Optional)
 If your project requires a backend or any environment variables, ensure you configure them before starting the server.
