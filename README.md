@@ -89,14 +89,14 @@ Update the .env file or relevant configuration files with the necessary API endp
 
 ## What's Next?
 ### Future Plans for IQFinance
-In the quest to enhance the financial decision-making process, we are committed to continuously improving IQFinance. Our roadmap includes several exciting features and updates:
+- In the quest to enhance the financial decision-making process, we are committed to continuously improving IQFinance. Our roadmap includes several exciting features and updates:
 
-Advanced Analytics: Introduce more sophisticated financial analytics and visualizations to provide deeper insights into investment trends and retirement planning.
+- Advanced Analytics: Introduce more sophisticated financial analytics and visualizations to provide deeper insights into investment trends and retirement planning.
 
-Personalized Recommendations: Implement machine learning algorithms to offer personalized investment strategies and financial advice based on the user's financial goals, risk tolerance, and investment history.
+- Personalized Recommendations: Implement machine learning algorithms to offer personalized investment strategies and financial advice based on the user's financial goals, risk tolerance, and investment history.
 
-Community Engagement: Create a platform where users can share insights, discuss investment strategies, and learn from experienced financial advisors.
+- Community Engagement: Create a platform where users can share insights, discuss investment strategies, and learn from experienced financial advisors.
 
-User Experience Improvements: Continuously refine the user interface and user experience based on feedback to make financial planning more intuitive and accessible.
+- User Experience Improvements: Continuously refine the user interface and user experience based on feedback to make financial planning more intuitive and accessible.
 
 By focusing on these areas, we aim to empower individuals with the tools and knowledge they need to make informed financial decisions, ultimately fostering financial well-being and security.
