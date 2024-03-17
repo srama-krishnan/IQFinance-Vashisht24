@@ -98,6 +98,8 @@
     border-radius: 5px;
     border: 1px solid #ccc;
     transition: border-color 0.5s ease;
+    color: #23262a;
+    text-align: center;
   }
   
   input[type="number"]:focus {
@@ -113,6 +115,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.5s ease;
+    font-size: 18px;
   }
   
   input[type="submit"]:hover {
